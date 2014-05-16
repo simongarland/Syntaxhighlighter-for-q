@@ -7,6 +7,9 @@ Stable tag: 1.0.0
 
 Adds support for the q language to the SyntaxHighlighter Evolved plugin.
 
+Based on original code from Kamil Jaśkiewicz at 
+http://kamiljaskiewicz.blogspot.ch/2012/02/syntaxhighlighter-kdbq-syntax.html
+
 == Installation ==
 
 1. Make sure the Syntaxhighlighter Evolved plugin is installed and active.
