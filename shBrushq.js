@@ -33,7 +33,8 @@ SyntaxHighlighter.brushes.q = function()
   { regex: /^\/[\t ]*[\r\n]([^\\]|[\r\n])*(^\\[\t ]*[\r\n])*/gm,  css: 'comments' },   // multi-line comment 
   { regex: /\b([\d]+[a-zA-Z]{0,2}(\.[\d]+[m]?)?|0x[a-f0-9]+)\b/gi,css: 'constants' },  // numbers
   { regex: /`[a-zA-Z0-9:.]*/g,                                    css: 'color1' },     // symbol
-  { regex: /\.z\.[a-z][a-z]/g,                                    css: 'color2' },     // .z.XX
+  { regex: /\.z\.[a-z]{1,2}/g,                                    css: 'color2' },     // .z.XX
+  { regex: /^[kq]\)/gm,                                           css: 'color1' },     // leading k) or q)
   { regex: SyntaxHighlighter.regexLib.doubleQuotedString,         css: 'string'},
   { regex: /[0-9]{4}\.[0-9]{2}\.[0-9]{2}[TD]?/gm,                 css: 'constants' },  // date
   { regex: /(0D)?[0-9]{2}:[0-9]{2}(:[0-9]{2})?(\.[0-9]{3,})?/gm,  css: 'constants' },  // time
