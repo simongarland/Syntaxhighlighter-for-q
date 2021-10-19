@@ -1,9 +1,9 @@
 # SyntaxHighlighter Evolved: q Brush
-## Contributors: Simon Garland
-## Tags: syntaxhighlighting, q
-## Requires at least: 2.7
-## Tested up to: 3.9
-## Stable tag: 1.0.0
+Contributors: Simon Garland
+Tags: syntaxhighlighting, q
+Requires at least: 2.7
+Tested up to: 3.9
+Stable tag: 1.0.0
 
 Adds support for the q language to the SyntaxHighlighter Evolved plugin.
 
